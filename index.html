@@ -30,20 +30,22 @@
 
   <!-- hero banner -->
   <section id="hero-banner">
-    <div id="logo"></div>
-    <h2>Marius Kubilius</h2>
-    <p id="html">HTML</p>
-    <p id="css">CSS</p>
-    <p id="js">JavaScript</p>
+    <div id="holder">
+      <div id="logo"></div>
+      <h2 id="name">Marius Kubilius</h2>
+      <p id="html">HTML</p>
+      <p id="css">CSS</p>
+      <p id="js">JavaScript</p>
+    </div>
   </section>
 
   <main id="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
-      <div class="title">
+      <div id="about-title" class="title">
         <h2>About Me</h2>
       </div>
-      <article  id="about-me">
+      <article id="about-me">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non dapibus erat. Nulla vel ultricies leo.
           Nullam tristique enim sed gravida feugiat. Fusce vitae sem feugiat, elementum quam ac, congue lorem. Cras a
           nibh est. Sed sodales semper mollis. Aliquam posuere blandit ultrices. Curabitur non erat ac nibh cursus
@@ -51,16 +53,18 @@
           consequat ultricies. Donec at orci convallis, blandit purus sit amet, imperdiet eros. Sed bibendum nisi ut
           neque dictum rutrum. Praesent commodo eros at nibh ultrices efficitur. Ut laoreet lectus massa, in rutrum
           justo eleifend condimentum. Morbi sollicitudin mi sit amet erat sodales, et viverra nisi sodales.</p>
-        </article>
+      </article>
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <div class="title">
+      <div id="work-title" class="title">
         <h2>Work</h2>
       </div>
       <div id="work-area">
-        <a class="box" id="a" href="google.lt" target="_blank" ><img src="./images/02-portfolio-1.jpg"/><p>Text</p></a>
+        <a class="box" id="a" href="google.lt" target="_blank"><img src="./images/02-portfolio-1.jpg" />
+          <p>Text</p>
+        </a>
         <div class="box" id="b"></div>
         <div class="box" id="c"></div>
         <div class="box" id="d"></div>
@@ -69,12 +73,20 @@
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <div class="title">
+    <section class="page-section contact">
+      <div id="contact-title" class="title">
         <h2>Contact Me</h2>
       </div>
-      <div class="content">
-        <p>TEXT</p>
+      <div id="contact">
+        <div>
+          <p>Phone: <span>+44746349435*</span></p>
+          <p>Email: <span>marius.kub@outlook.com</span></p>
+        </div>
+        <div>
+          <a href="#">Facebook</a>
+          <a href="#">Linkdin</a>
+          <a href="#">GitHub</a>
+        </div>
       </div>
     </section>
   </main>
