@@ -7,6 +7,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
 
+  <!-- Title logo -->
+  <link rel="icon" href="./images/logo.webp" type="image/x-type">
+
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -20,10 +24,9 @@
     <h1>My Portfolio</h1>
     <nav>
       <ul>
-        <li><a href="#">Contact me</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Work</a></li>
+        <li><a href="#contact">Contact me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About Me</a></li>
       </ul>
     </nav>
   </header>
@@ -48,11 +51,11 @@
       <article id="about-me">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non dapibus erat. Nulla vel ultricies leo.
           Nullam tristique enim sed gravida feugiat. Fusce vitae sem feugiat, elementum quam ac, congue lorem. Cras a
-          nibh est. Sed sodales semper mollis. Aliquam posuere blandit ultrices. Curabitur non erat ac nibh cursus
+          nibh est. Sed sodales semper <span style="font-weight: bold; font-size: 1.1em">I will do this section later. Running out of time.</span>mollis. Aliquam posuere blandit ultrices. Curabitur non erat ac nibh cursus
           vehicula ut ut odio. Nullam purus odio, rutrum eu eleifend nec, mollis eleifend orci. Sed a est posuere magna
           consequat ultricies. Donec at orci convallis, blandit purus sit amet, imperdiet eros. Sed bibendum nisi ut
           neque dictum rutrum. Praesent commodo eros at nibh ultrices efficitur. Ut laoreet lectus massa, in rutrum
-          justo eleifend condimentum. Morbi sollicitudin mi sit amet erat sodales, et viverra nisi sodales.</p>
+          justo eleifend condimentum. Morbi sollicitudin mi sit amet erat.</p>
       </article>
     </section>
 
@@ -62,17 +65,31 @@
         <h2>Work</h2>
       </div>
       <div id="work-area">
-        <a class="box" id="a" href="google.lt" target="_blank"><img src="./images/02-portfolio-1.jpg" />
-          <p>Text</p>
+        <!-- Horiseon projects -->
+        <a class="box" id="horiseon" href="https://markubil.github.io/Challenge1_accessibility/" target="_blank"><img
+            src="./images/Horiseon.png" />
+          <p>Horiseon website</p>
         </a>
-        <div class="box" id="b"></div>
-        <div class="box" id="c"></div>
-        <div class="box" id="d"></div>
-        <div class="box" id="e"></div>
+        <!-- Prework project -->
+        <a class="box" id="prework" href="https://markubil.github.io/prework-study-guide/" target="_blank"><img
+            src="./images/02-portfolio-1.jpg" />
+          <p>PreWork website</p>
+        </a>
+        <!-- Future project -->
+        <a class="box" id="c" href="#" target="_blank"><img src="./images/02-portfolio-3.jpg" />
+          <p>Coming soon!</p>
+        </a>
+        <a class="box" id="d" href="#" target="_blank"><img src="./images/02-portfolio-4.jpg" />
+          <p>Coming soon!</p>
+        </a>
+
+        <a class="box" id="e" href="#" target="_blank"><img src="./images/02-run-buddy.jpg" />
+          <p>Coming soon!</p>
+        </a>
       </div>
     </section>
 
-    <!-- contact -->
+    <!-- contacts -->
     <section class="page-section contact">
       <div id="contact-title" class="title">
         <h2>Contact Me</h2>
@@ -84,8 +101,8 @@
         </div>
         <div>
           <a href="#">Facebook</a>
-          <a href="#">Linkdin</a>
-          <a href="#">GitHub</a>
+          <a href="#">LinkdIn</a>
+          <a href="https://github.com/MarKubil" target="_blank">GitHub</a>
         </div>
       </div>
     </section>
